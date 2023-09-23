@@ -4,16 +4,18 @@ plugins {
 
 android {
     namespace 'com.codingwithme.fooddeliveryapp'
-    compileSdk 33
+    compileSdk 28
 
     defaultConfig {
         applicationId "com.codingwithme.fooddeliveryapp"
-        minSdk 24
-        targetSdk 33
+        minSdk 19
+        targetSdk 28
         versionCode 1
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+
     }
 
     buildTypes {
